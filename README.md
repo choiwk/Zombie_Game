@@ -1,6 +1,27 @@
 # Zombie_Game
 2020년 java로 Console 게임을 개발하였습니다.
 
+<br/>
+
+### 구조도
+```html
+├── action
+│   ├── Battle_Cave.java
+│   ├── Battle_Forest.java
+│   ├── Battle_Road.java
+│   └── ItemController.java
+├── main
+│   └── Main.java
+└── object
+    ├── Animal.java
+    ├── Boss.java
+    ├── Enemy.java
+    ├── Item.java
+    ├── Player.java
+    ├── Unit.java
+    └── 아이템_글.java
+```
+
 ## 게임 설명
 - 플레이어는 좀비를 처치하고 좀비에게 아이템을 흭득하고 최종적으로 백신을 만들어서 마지막 스테이지까지 살아남아야 합니다.
 - 좀비를 처치하고 여러 스테이지(숲, 동굴, 다리)를 무사히 통과하고 도착 지점으로 무사히 귀환하세요.
